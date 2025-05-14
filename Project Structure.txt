@@ -1,0 +1,21 @@
+credit-basis-strategy/
+│
+├── env.yml
+├── Makefile
+├── .pre-commit-config.yaml
+├── src/
+│   ├── __init__.py
+│   ├── data/
+│   │   ├── trace_loader.py
+│   │   ├── sec_fundamentals.py
+│   │   ├── fred.py
+│   │   └── update_all.py
+│   └── utils/
+│       └── logging_conf.py
+├── notebooks/
+│   └── 00_qc_raw.ipynb
+├── data/
+│   ├── raw/            # NEVER commit — add to .gitignore
+│   ├── interim/
+│   └── processed/
+└── README.md
